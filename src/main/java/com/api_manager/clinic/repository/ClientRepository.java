@@ -1,7 +1,7 @@
 package com.api_manager.clinic.repository;
 
 
-import com.api_manager.clinic.entity.Client;
+import com.api_manager.clinic.domain.entity.Client;
 import org.springframework.data.repository.CrudRepository;
 
 

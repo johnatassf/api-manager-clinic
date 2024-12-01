@@ -1,7 +1,6 @@
 package com.api_manager.clinic.services;
 
-import com.api_manager.clinic.entity.Client;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.api_manager.clinic.domain.entity.Client;
 import org.springframework.stereotype.Service;
 import com.api_manager.clinic.repository.ClientRepository;
 
