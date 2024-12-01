@@ -1,6 +1,7 @@
 package com.api_manager.clinic.services;
 
 import com.api_manager.clinic.entity.Client;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.api_manager.clinic.repository.ClientRepository;
 
@@ -10,6 +11,7 @@ import java.util.Optional;
 public class ClientServiceImp implements ClientService{
 
     private final ClientRepository clientRepository;
+
 
     public ClientServiceImp(ClientRepository clientRepository) {
         this.clientRepository = clientRepository;
